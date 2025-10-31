@@ -49,6 +49,7 @@ var tests = []struct {
 	{"FI1234567", ErrInvalidVATNumberFormat},
 	{"FI12345678", nil},
 	{"FR12345678901", nil},
+	{"FR1B345678901", nil},
 	{"FR1234567890", ErrInvalidVATNumberFormat},
 	{"GB999999973", nil},
 	{"GB156730098481", nil},
